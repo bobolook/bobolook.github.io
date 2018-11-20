@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7d9974;
+  background: #881f24;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2692,4 +2692,52 @@ body {
 }
 .post-button {
   margin-top: 0px;
+}
+#.category-all-page {
+  background: #fff;
+  margin-bottom: 60px;
+  margin: -30px 30px 30px 30px;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding: 30px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.posts-expand .post-tags a {
+  border-bottom: none;
+  margin-right: 0px;
+  font-size: 13px;
+  padding: 0px 5px;
+  border-radius: 3px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.posts-expand .post-tags a:hover {
+  background: #eee;
+}
+#.tag-cloud {
+  background: #fff;
+  margin-bottom: 60px;
+  margin: -30px 30px 30px 30px;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding: 30px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.page {
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  padding: 30px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.comments {
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  margin: 60px 0px 0px 0px;
+  padding: 30px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
