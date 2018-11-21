@@ -286,6 +286,158 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/21/next主题修改（适合小白）/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="bobolook">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="温一壶月光下酒">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/11/21/next主题修改（适合小白）/" itemprop="url">next主题修改（适合小白）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-21T19:32:31+08:00">
+                2018-11-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/各种折腾/" itemprop="url" rel="index">
+                    <span itemprop="name">各种折腾</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/21/next主题修改（适合小白）/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/21/next主题修改（适合小白）/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>经过两天的百度，博客终于改出一个比较舒服的样子了，不过发现一个问题，网上关于HEXO的文章基本上都差不多，特别是主题美化的很少，下面我分享一下我的<font color="palevioletred" size="4">custom.styl</font>，后期会继续添加，希望对小白们有帮助~</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br></pre></td><td class="code"><pre><span class="line">// Custom styles.</span><br><span class="line">//背景</span><br><span class="line">body &#123;</span><br><span class="line">    background:url(https://source.unsplash.com/a7fr9EcQRw0);</span><br><span class="line">    background-size:cover;</span><br><span class="line">    background-repeat:no-repeat;</span><br><span class="line">    background-attachment:fixed;</span><br><span class="line">    background-position:center;</span><br><span class="line">&#125;</span><br><span class="line">//文章阴影圆角</span><br><span class="line">.post &#123;</span><br><span class="line">  background: #fff;</span><br><span class="line">  margin-bottom: 50px;</span><br><span class="line">  opacity: 0.8;</span><br><span class="line">  border-radius: 10px;</span><br><span class="line">  padding: 30px;</span><br><span class="line">  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);</span><br><span class="line">  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">//分割线隐藏</span><br><span class="line"> .posts-expand .post-eof &#123;</span><br><span class="line">     margin: 0px;</span><br><span class="line">     background-color: rgba(255, 255, 255, 0);</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">//页面留白修改</span><br><span class="line">.header-inner &#123;</span><br><span class="line">    padding-top: 80px;</span><br><span class="line">    padding-bottom: 20px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand &#123;</span><br><span class="line">    padding-top: 10px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand .post-meta &#123;</span><br><span class="line">    margin: 5px 0px 0px 0px;</span><br><span class="line">&#125;</span><br><span class="line">.post-button &#123;</span><br><span class="line">    margin-top: 0px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">// 文章底部的tags</span><br><span class="line">.posts-expand .post-tags a &#123;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    margin-right: 0px;</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    padding: 0px 5px;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    transition-duration: 0.2s;</span><br><span class="line">    transition-timing-function: ease-in-out;</span><br><span class="line">    transition-delay: 0s;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand .post-tags a:hover &#123;</span><br><span class="line">    background: #eee;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">// 自定义页面和文章效果一致</span><br><span class="line">.page &#123;</span><br><span class="line">    background:rgba(255, 255, 255, 0.8);</span><br><span class="line">    border-radius: 10px;</span><br><span class="line">    padding: 30px;</span><br><span class="line">    -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);</span><br><span class="line">    -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//评论背景</span><br><span class="line">.comments &#123;</span><br><span class="line">    background:rgba(255, 255, 255, 0.8);</span><br><span class="line">    border-radius: 10px;</span><br><span class="line">    margin: 50px 0px 0px 0px;</span><br><span class="line">    padding: 30px;</span><br><span class="line">    -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);</span><br><span class="line">    -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);</span><br><span class="line">&#125;</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .comments &#123;</span><br><span class="line">        margin: 50px 20px 0px 20px;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/19/天秤座你好，我也是天平/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -625,7 +777,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -636,7 +788,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -647,7 +799,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>

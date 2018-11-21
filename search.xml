@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[next主题修改（适合小白）]]></title>
+    <url>%2F2018%2F11%2F21%2Fnext%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%EF%BC%88%E9%80%82%E5%90%88%E5%B0%8F%E7%99%BD%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[经过两天的百度，博客终于改出一个比较舒服的样子了，不过发现一个问题，网上关于HEXO的文章基本上都差不多，特别是主题美化的很少，下面我分享一下我的custom.styl，后期会继续添加，希望对小白们有帮助~ 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283// Custom styles.//背景body &#123; background:url(https://source.unsplash.com/a7fr9EcQRw0); background-size:cover; background-repeat:no-repeat; background-attachment:fixed; background-position:center;&#125;//文章阴影圆角.post &#123; background: #fff; margin-bottom: 50px; opacity: 0.8; border-radius: 10px; padding: 30px; -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5); -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5); &#125;//分割线隐藏 .posts-expand .post-eof &#123; margin: 0px; background-color: rgba(255, 255, 255, 0); &#125;//页面留白修改.header-inner &#123; padding-top: 80px; padding-bottom: 20px;&#125;.posts-expand &#123; padding-top: 10px;&#125;.posts-expand .post-meta &#123; margin: 5px 0px 0px 0px;&#125;.post-button &#123; margin-top: 0px;&#125;// 文章底部的tags.posts-expand .post-tags a &#123; border-bottom: none; margin-right: 0px; font-size: 13px; padding: 0px 5px; border-radius: 3px; transition-duration: 0.2s; transition-timing-function: ease-in-out; transition-delay: 0s;&#125;.posts-expand .post-tags a:hover &#123; background: #eee;&#125;// 自定义页面和文章效果一致.page &#123; background:rgba(255, 255, 255, 0.8); border-radius: 10px; padding: 30px; -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5); -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);&#125;//评论背景.comments &#123; background:rgba(255, 255, 255, 0.8); border-radius: 10px; margin: 50px 0px 0px 0px; padding: 30px; -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5); -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);&#125;@media (max-width: 767px) &#123; .comments &#123; margin: 50px 20px 0px 20px; &#125;&#125;]]></content>
+      <categories>
+        <category>各种折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>代码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[天秤座你好，我也是天平]]></title>
     <url>%2F2018%2F11%2F19%2F%E5%A4%A9%E7%A7%A4%E5%BA%A7%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E4%B9%9F%E6%98%AF%E5%A4%A9%E5%B9%B3%2F</url>
     <content type="text"><![CDATA[作曲 : 黄恺 作词 : 王燕冰天秤座你好我也是天平 你的转身离去 是不是真的要离去天秤座你好我也在风里 你的思念太轻 我却忘了游码归零我领悟不到你的用意 即使是一样的守护星维纳斯没过给我指引 那把秤原来不秤爱情我没遇到会停下的你 更没料到会离你而去看看那橱窗里的身影 那把秤平衡不了的关系天秤座你好我也是天平 你的暧昧不清 是不是真的能抽离天秤座你好我也在谜里 教我如何回应 能让你觉得来之不易我领悟不到你的用意 即使是一样的守护星维纳斯没过给我们指引 那把秤原来不秤爱情我没遇到会停下的你 更没料到会离你而去看看那橱窗里的身影 那把秤平衡不了的关系我领悟不到你的用意 即使是一样的守护星维纳斯没过给我们指引 那把秤原来不秤爱情我没遇到会停下的你 更没料到会离你而去看看那橱窗里的身影 那把秤平衡不了的关系看看那橱窗里的身影 那把秤平衡不了的关系]]></content>
